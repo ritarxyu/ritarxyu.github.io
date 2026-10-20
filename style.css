@@ -66,6 +66,11 @@ nav a:hover {
   color: var(--accent);
 }
 
+nav a.active {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+}
+
 #hero {
   padding-top: 6rem;
   padding-bottom: 6rem;
